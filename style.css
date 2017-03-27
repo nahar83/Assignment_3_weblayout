@@ -1,0 +1,258 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width:1170px;
+	margin:0 auto;
+}
+.container-fluid{
+	width:100%;
+}
+hr{
+    width: 110px;
+    margin: auto;
+    color: #B85EFF;
+    border: 1px solid #B85EFF;
+}
+/*--Start Header------------------------------*/
+header{
+	height:50px;
+	background: #282B2E;
+}
+.header-left{
+	width:250px;
+	height:50px;
+	float: left;
+}
+.logo{
+	display: block;
+	width:80%;
+	height: 30px;
+	padding: 10px 20px 10px 20px;
+}
+.header-right{
+	width:920px;
+	height:100%;
+	float: right;
+}
+nav{
+	margin-top: 14px;
+	margin-right: 100px; 
+	float: right;
+}
+nav > ul{
+	list-style: none;
+}
+nav > ul > li{
+	display: inline;
+
+}
+nav > ul > li > a{
+	text-decoration: none;
+	font-size: 20px;
+	color:#fff;
+	padding:0 10px 0 10px;
+}
+nav > ul > li > a:hover{
+	background: #013E77;
+	color:#E37126;
+	border-radius: 10px;
+}
+/*--End Header------------------------------*/
+/*--Start Banner------------------------------*/
+.bannerimage{
+	width: 100%;
+	display: block;
+	height: 400px;
+}
+/*--End Banner------------------------------*/
+/* =============================================================
+  FEATURES SECTION
+ ============================================================ */
+#feature{
+    padding: 80px 0;
+    text-align: center;
+    color: #3c7575;
+}
+.title{
+	width:100%;
+	height: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    background: white;
+}
+.title h1{
+    padding-bottom: 5px;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.title h1:hover{
+	background: #333333;
+	color:white;
+	border-radius: 10px;
+}
+.single_feature{
+    width: 390px;
+    float: left;
+}
+.single_feature img{
+	width:100px;
+	height: 100px;
+}
+.single_feature h3{
+	margin-top:15px;
+	font-size: 25px;
+	color: #736E6A;
+	padding-bottom: 15px; 
+}
+.single_feature p{
+	color: #736E6A;
+	padding-top: 20px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.single_feature_middle{
+	width: 390px;
+	float: left;
+}
+.single_feature_middle img{
+	width:150px;
+	height: 230px;
+}
+/*--End Features------------------------------*/
+/* =============================================================
+  SKILL SECTION
+ ============================================================ */
+#skill-sec {
+	width:1170px;
+	margin-left: 90px;
+    padding: 250px 0 140px 0;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+#skill-sec .overlay {
+    padding-top: 50px;
+    background: url(15.png);
+    min-height: 250px;
+    background-color: rgba(5, 5, 5, 0.45);
+}
+.skill{
+	width: 290px;
+    float: left;
+    text-align:center;
+    padding-top: 20px;
+    font-weight: 900;
+    font-size: 20px;
+}
+/*--End Skill------------------------------*/
+/* =============================================================
+  ADVANCE SECTION
+ ============================================================ */
+#advance{
+    padding: 10px 0;
+    text-align: center;
+    color: #3c7575;
+}
+.advance_feature{
+    width: 390px;
+    float: left;
+}
+.advance_feature img{
+	width:100px;
+	height: 100px;
+}
+.advance_feature h3{
+	margin-top:15px;
+	font-size: 25px;
+	color: #736E6A;
+	padding-bottom: 15px; 
+}
+.advance_feature p{
+	color: #736E6A;
+	padding-top: 20px; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*--End Advance------------------------------*/
+/* =============================================================
+  JUST SECTION
+ ============================================================ */
+#just-sec {
+	width:1170px;
+	margin-left: 90px;
+    padding: 300px 0 20px 0;
+    background-size: cover;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    font-weight: 900;
+}
+#just-sec .overlay {
+    background: #2C2D30;
+    padding: 50px 30px;
+}
+/*End Just section*/
+/* =============================================================
+  Gallery SECTION
+ ============================================================ */
+#gallery{
+    padding: 30px 0 10px 0;
+    text-align: center;
+    color: #3c7575;
+}
+.gallery_feature{
+    width: 390px;
+    float: left;
+}
+.gallery_feature img{
+	width:345px;
+	height: 230px;
+	padding-bottom: 40px; 
+}
+/*--End Gallery------------------------------*/
+/*==========================================
+   LOCATION 
+  =====================================================*/
+#location-sec{
+	width:1170px;
+	margin-left: 90px;
+    padding: 10px 0;
+    text-align: center;
+    background: #32333A;
+    margin-top: 600px;
+}
+.titleloc{
+	width:100%;
+	height: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+.titleloc h1{
+    padding-bottom: 5px;
+	color:white; 
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.titleloc h1:hover{
+	background: #0A0A0C;
+	color:white;
+	border-radius: 10px;
+}
+.titleloc hr{
+	width: 110px;
+    margin: auto;
+    background: #32333A;
+    border: 1px solid #B85EFF;
+}
+.text{
+	text-align: center;
+}
+.text{
+	color:#fff;
+}
+/*End location---------------------------*/
